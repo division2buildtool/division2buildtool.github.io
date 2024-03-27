@@ -112,19 +112,15 @@ macOS         | macOS 10.15                    |macOS 11 或更高版本
         - [.NET Multi-platform App UI 开发](https://learn.microsoft.com/zh-cn/dotnet/maui/what-is-maui?view=net-maui-8.0)
 
 
-<div style="display:none">
 ## 基本CLI指令
-- 克隆到本地后还原Nuget包  
-    ```dotnet restore```
-- [发布Android](https://learn.microsoft.com/zh-cn/dotnet/maui/android/deployment/publish-cli?view=net-maui-7.0)（证书位置与\<AndroidSigningKeyStore>设置一致）  
+- [发布Android](https://learn.microsoft.com/zh-cn/dotnet/maui/android/deployment/publish-cli?view=net-maui-7.0)  
     ```dotnet publish -c:Release -f:net7.0-android /p:AndroidSigningKeyPass=*** /p:AndroidSigningStorePass=***```
-- [发布Windows](https://learn.microsoft.com/zh-cn/dotnet/maui/windows/deployment/publish-cli?view=net-maui-8.0)（先导入.pfx证书到计算机）  
+- [发布Windows](https://learn.microsoft.com/zh-cn/dotnet/maui/windows/deployment/publish-cli?view=net-maui-8.0)  
     ```dotnet publish -c Release -f net8.0-windows10.0.19041.0 /p:RuntimeIdentifierOverride=win10-x64```
-- [发布iOS](https://learn.microsoft.com/zh-cn/dotnet/maui/ios/deployment/publish-cli?view=net-maui-8.0)（macOS环境）  
+- [发布iOS](https://learn.microsoft.com/zh-cn/dotnet/maui/ios/deployment/publish-cli?view=net-maui-8.0)  
     ```dotnet publish -c Release -f net8.0-ios```
-- [发布Mac](https://learn.microsoft.com/zh-cn/dotnet/maui/mac-catalyst/deployment/publish-unsigned?view=net-maui-8.0)（macOS环境）  
+- [发布Mac](https://learn.microsoft.com/zh-cn/dotnet/maui/mac-catalyst/deployment/publish-unsigned?view=net-maui-8.0)  
     ```dotnet publish -c Release -f net8.0-maccatalyst```
-</div>
 
 ## 数据参考和图片素材来源
 - [Division 2 Build Making Tool (TU16)](https://docs.google.com/spreadsheets/d/1gdiqJGR0U9yiSX90mVA4bruWfUyWpmsmWsYz4wY7t3Q)
