@@ -1,11 +1,18 @@
 [
- {
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "io.github.division2buildtool",
-    "sha256_cert_fingerprints":
-    ["EB:14:83:F6:1A:2A:EB:F8:91:CA:0B:5A:8E:76:9E:5D:BC:3F:5C:BB:D3:A1:69:12:E9:4B:96:F3:44:77:F6:26"]
+  {
+    "relation": [ "delegate_permission/common.handle_all_urls" ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.division2buildtool",
+      "sha256_cert_fingerprints": [ "EB:14:83:F6:1A:2A:EB:F8:91:CA:0B:5A:8E:76:9E:5D:BC:3F:5C:BB:D3:A1:69:12:E9:4B:96:F3:44:77:F6:26" ]
+    }
+  },
+  {
+    "relation": [ "delegate_permission/common.handle_all_urls" ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.mauiapp.division2app",
+      "sha256_cert_fingerprints": [ "EB:14:83:F6:1A:2A:EB:F8:91:CA:0B:5A:8E:76:9E:5D:BC:3F:5C:BB:D3:A1:69:12:E9:4B:96:F3:44:77:F6:26" ]
+    }
   }
-}
 ]
