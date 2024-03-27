@@ -110,7 +110,8 @@ macOS         | macOS 10.15                    |macOS 11 或更高版本
 - 工作负荷
     - 桌面应用和移动应用
         - [.NET Multi-platform App UI 开发](https://learn.microsoft.com/zh-cn/dotnet/maui/what-is-maui?view=net-maui-8.0)
-        - 
+
+
 <div style="display:none">
 ## 基本CLI指令
 - 克隆到本地后还原Nuget包  
