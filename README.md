@@ -11,14 +11,14 @@
 1.  模拟配装与数据计算 
 
 桌面配装界面：
-![桌面界面](https://img2.imgtp.com/2024/03/27/8NUNSt6O.png) 
+![桌面端界面](https://img2.imgtp.com/2024/03/27/0BOKvOPT.png) 
 安卓配装界面：
-![安卓界面](https://img2.imgtp.com/2024/03/27/B6Y6ovZ6.png)
+![移动端界面](https://img2.imgtp.com/2024/03/27/B6Y6ovZ6.png)
 
-2.  游戏数据展示（武器数据、品牌加成、天赋列表、物品搜索等功能）  
+2.  游戏数据展示（包括武器数据、品牌加成、天赋列表、物品搜索等功能）  
 
-![安卓界面](https://img2.imgtp.com/2024/03/27/DlifWOlb.png)
-![安卓界面](https://img2.imgtp.com/2024/03/27/VxMyOt9B.png)
+![移动端界面](https://img2.imgtp.com/2024/03/27/DlifWOlb.png)
+![移动端界面](https://img2.imgtp.com/2024/03/27/VxMyOt9B.png)
 
 ## 下载
 - [蓝奏云](https://wwbb.lanzout.com/b03vesg4h)     密码:3z9a
@@ -36,7 +36,7 @@ macOS         | macOS 10.15                    |macOS 11 或更高版本
 ### Windows
 - 如果之前安装过软件，直接双击安装包文件.msix 以安装应用。
 
-- 对于第一次安装，以下方式二选一：
+- 对于第一次安装，以下【自动安装】、【手动安装】方式二选一：
 
 - 自动安装
   1. 打开【设置】
@@ -101,7 +101,7 @@ macOS         | macOS 10.15                    |macOS 11 或更高版本
 1.  安卓CollectionView在ScrollView中卡顿 [MAUI#17326](https://github.com/dotnet/maui/issues/17326)、[#18505](https://github.com/dotnet/maui/issues/18505)
     - 临时方法：安卓平台使用.NET7
 1.  安卓使用CommunityToolkit.Maui的Popup时Label文字显示、断行错误 [MCT#1532](https://github.com/CommunityToolkit/Maui/issues/1532)、[#1592](https://github.com/CommunityToolkit/Maui/issues/1592)、[#1664](https://github.com/CommunityToolkit/Maui/issues/1664)、[#1717](https://github.com/CommunityToolkit/Maui/issues/1717)、[#1724](https://github.com/CommunityToolkit/Maui/issues/1724)
-    - 临时方法：安卓平台使用CommunityToolkit.Maui5.2.0，使用Mopups替代
+    - 临时方法：安卓平台使用Mopups和旧版本CommunityToolkit.Maui(v5.2.0)，
 
 
 
@@ -116,9 +116,15 @@ macOS         | macOS 10.15                    |macOS 11 或更高版本
 - [Division 2 Build Making Tool (TU16)](https://docs.google.com/spreadsheets/d/1gdiqJGR0U9yiSX90mVA4bruWfUyWpmsmWsYz4wY7t3Q)
 - [Division 2 Gear Spreadsheet](https://docs.google.com/spreadsheets/d/1nrPBmOrtpkEW1j5fbcRT7L-AXgsGOqMqxXoVtopsiGM)
 - [Division 2 Gear Attribute Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vTJEX5DerCvOj3a_m36TRy1gPBAUvrduOIdmXI9j1Y0MpQk1wIXaZ9KOcPa7HzXzp_N5qGmjDj6yEfL/pubhtml)
+- [全境封锁2 TU17敌怪【血量统计】](https://www.bilibili.com/video/BV1C84y1P7Cr)
+- [TU19猎头者伤害公式](https://tieba.baidu.com/p/8809994501)
+- [The Division 2: Weekly Vendor Reset - Ruben Alamina](https://rubenalamina.mx/the-division-weekly-vendor-reset/)
+- [The Division 2 Stats](https://tracker.gg/division-2)
+- [Ubisoft Help](https://www.ubisoft.com/zh-cn/help/game/the-division-2)
 
 ## 感谢以下开源项目
 * [.NET MAUI - MIT License](https://github.com/dotnet/maui)
+* [ASP.NET Core Blazor - MIT License](https://github.com/dotnet/aspnetcore)
 * [CommunityToolkit.Maui - MIT License](https://github.com/CommunityToolkit/Maui)
 * [CommunityToolkit.Mvvm - MIT License](https://github.com/CommunityToolkit/dotnet)
 * [LocalizationResourceManager.Maui - MIT License](https://github.com/SirJohnK/LocalizationResourceManager.Maui)
