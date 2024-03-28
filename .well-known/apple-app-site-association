@@ -1,0 +1,14 @@
+﻿{
+    "activitycontinuation": {
+        "apps": [ "io.github.division2buildtool" ]
+    },
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "io.github.division2buildtool",
+                "paths": [ "*", "/*" ]
+            }
+        ]
+    }
+}
