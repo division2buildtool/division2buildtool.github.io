@@ -1,7 +1,7 @@
 ﻿《全境封锁2配装工具》是为游戏[《全境封锁2》](https://www.ubisoft.com/en-us/game/the-division/the-division-2)
 开发的第三方工具软件，采用.NET MAUI框架，在Android、Windows、iOS、macOS上构建并发布应用。
 
-[![.NET MAUI](https://img.shields.io/badge/.NET-MAUI-000000?labelColor=512bd4)](https://dotnet.microsoft.com/zh-cn/apps/maui)
+![.NET MAUI](https://img.shields.io/badge/.NET-MAUI-000000?labelColor=512bd4)
 ![Windows](https://img.shields.io/badge/-Windows10-0078D6?labelColor=0078D6&logo=Windows)
 ![Android](https://img.shields.io/badge/-Android-000000?labelColor=000000&logo=Android)
 ![iOS&macOS](https://img.shields.io/badge/-iOS_&_macOS-000000?labelColor=000000&logo=Apple)  
@@ -9,30 +9,32 @@
 ## 主要功能
 
 1.  模拟配装与数据计算 
-
-桌面配装界面：
+2.  游戏数据展示（包括武器数据、品牌加成、天赋列表、物品搜索等功能） 
+桌面端界面：
 ![桌面端界面](https://img2.imgtp.com/2024/03/27/0BOKvOPT.png) 
-安卓配装界面：
+移动端界面：
 ![移动端界面](https://img2.imgtp.com/2024/03/27/B6Y6ovZ6.png)
-
-2.  游戏数据展示（包括武器数据、品牌加成、天赋列表、物品搜索等功能）  
-
 ![移动端界面](https://img2.imgtp.com/2024/03/27/DlifWOlb.png)
 ![移动端界面](https://img2.imgtp.com/2024/03/27/VxMyOt9B.png)
 
 ## 下载
-- [蓝奏云](https://wwbb.lanzout.com/b03vesg4h)     密码:3z9a
+- [蓝奏云](https://wwbb.lanzout.com/b03vesg4h)     密码：3z9a
+移动端下载apk/ipa文件时可能会提示需要会员才能分享，将手机浏览器的界面切换为桌面模式，即可跳过限制下载文件。
 
 ## 系统要求
 
 系统           | 最低版本要求                     | 推荐版本要求 (部分功能需求)            
 --------------|--------------------------------|---------------------
-Windows(x64)  | Windows 10 版本 1809            |Windows 11
-Android       | Android 5.0 (API 21)           |Android 7.0 (API 24) 
+Windows(x64)  | Windows 10 版本 1809            |Windows 10 版本 1809 
+Android       | Android 5.0                    |Android 7.0
 iOS           | iOS 11                         |iOS 14
 macOS         | macOS 10.15                    |macOS 11
 
 ## 安装
+
+### iOS
+软件ipa安装包未签名，需要自签后进行安装。
+
 ### Windows
 - 如果之前安装过软件，直接双击安装包文件.msix 以安装应用。
 
@@ -48,7 +50,7 @@ macOS         | macOS 10.15                    |macOS 11
 1. 在初次运行时，安装脚本会在安装证书时提示你提升权限，请按回车(Enter)键继续;在安装证书时，请输入 Y 以继续
 1. 等待安装完成，就可以在开始菜单中找到【全境封锁2配装工具】，如果找不到请使用系统的搜索功能进行查找。
      <details>
-       <summary>PowerShell 运行详情</summary>
+       <summary>点此展开PowerShell 运行详情</summary>
          <pre><code>
          找到了捆绑:  Division2BuildTool_**.*.*.0_x64.msix  
          找到证书:  Division2BuildTool_**.*.*.0_x64.cer  
@@ -73,7 +75,7 @@ macOS         | macOS 10.15                    |macOS 11
 
 
 #### Windows手动安装
-1. 双击\Dependencies\x64文件夹下的“Microsoft.WindowsAppRuntime.1.*.msix”依赖项安装包进行安装
+1. 双击“/Dependencies/x64/Microsoft.WindowsAppRuntime.1.*.msix”依赖项安装包进行安装
 1. 双击“Division2BuildTool_1.*.*.0_x64.cer”打开证书文件
 1. 选择 “安装证书...”
 1. 选择 “本地计算机 ”，然后选择“ 下一步”。
@@ -82,9 +84,8 @@ macOS         | macOS 10.15                    |macOS 11
 1. 选择“浏览...”，然后选择“受信任人”。 依次选择“确定”“下一步”“完成”。
 1. 双击“Division2BuildTool_1.*.*.0_x64.msix”安装包以安装应用。如果提示无法验证此应用包的发布者证书，说明前面证书安装不成功。 
 
-## 常见问题
+#### Windows安装常见问题
 - Q：安装时提示：无法验证此应用包的发布者证书。请与系统管理员或应用开发人员联系，以获取具有验证证书的新应用包。必须验证应用包中签名的根证书和所有直接证书
-
   - A：未安装.cer证书文件，按第2步第一次安装方法操作
   - A：证书文件过期，如果软件未发布新版本，可以手动将系统时间更改到证书生效时间范围后再安装软件（当前证书有效期为2023年11月1日到2024年11月1日），安装完成后即可将时间改回，不影响软件使用。
 
