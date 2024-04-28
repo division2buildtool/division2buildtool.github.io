@@ -1,3 +1,6 @@
+---
+---
+
 :root {
     --gray-000: #f8f9fa;
     --gray-100: #f1f3f5;
@@ -68,6 +71,7 @@
     --code-bg: var(--gray-900);
 }
 
+@import "{{ site.theme }}";
 
 // Body resets
 //
