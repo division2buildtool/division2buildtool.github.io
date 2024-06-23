@@ -9,12 +9,8 @@
 ## 软件界面
 ![桌面端界面](/img/screenshot.png) 
 
-## [软件使用🔗](https://division2buildtool.github.io/introduction)
-
-## 软件下载
-- [蓝奏云](https://wwbb.lanzout.com/b03vesg4h)     密码：3z9a
-
-    移动端下载apk/ipa文件时可能会提示需要会员才能分享，将手机浏览器的界面切换为桌面模式，即可跳过限制下载文件。
+## 软件使用
+详见[软件使用简介](https://division2buildtool.github.io/introduction)
 
 ## 系统要求
 
@@ -25,13 +21,18 @@ Android       | Android 5.0                    |Android 7.0
 iOS           | iOS 11                         |iOS 14
 macOS         | macOS 10.15                    |macOS 11
 
+## 软件下载
+- [蓝奏云](https://wwbb.lanzout.com/b03vesg4h)     密码：3z9a
+
+    移动端下载apk/ipa文件时可能会提示需要会员才能分享，将手机浏览器的界面切换为桌面模式，即可跳过限制下载文件。
+
 ## 软件安装
 
 ### iOS系统
 软件ipa安装包未签名，需要自签后进行安装。
 
-### [Windows系统安装🔗](https://division2buildtool.github.io/installation)
-
+### Windows系统
+详见[Windows系统安装说明](https://division2buildtool.github.io/installation)
 
 ## 已知问题
 
@@ -41,7 +42,6 @@ macOS         | macOS 10.15                    |macOS 11
     - 临时方法：安卓平台使用Mopups和旧版本CommunityToolkit.Maui(v5.2.0)
 1.  Windows平台存在安装后不能打开的问题
     - 未确定原因，可能相关[#21744](https://github.com/dotnet/maui/issues/21744)
-
 
 
 ## 开发环境
@@ -60,6 +60,7 @@ macOS         | macOS 10.15                    |macOS 11
 - [The Division 2: Weekly Vendor Reset - Ruben Alamina](https://rubenalamina.mx/the-division-weekly-vendor-reset/)
 - [The Division 2 Stats](https://tracker.gg/division-2)
 - [Ubisoft Help](https://www.ubisoft.com/zh-cn/help/game/the-division-2)
+- [Hunter - The TD2, AFOP, XDefiant Asset Extractor](https://dtzxporter.com/tools/hunter)
 
 ## 感谢以下开源项目
 * [.NET MAUI - MIT License](https://github.com/dotnet/maui)
