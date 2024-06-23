@@ -1,8 +1,6 @@
 ﻿《全境封锁2配装工具》是为游戏[《全境封锁2》](https://www.ubisoft.com/en-us/game/the-division/the-division-2)
 开发的第三方工具软件，采用.NET MAUI框架，在Android、Windows、iOS、macOS上构建并发布应用。
 
-![Windows](https://img.shields.io/badge/-Windows10-0078D6?labelColor=0078D6&logo=Windows)![Android](https://img.shields.io/badge/-Android-000000?labelColor=000000&logo=Android)![iOS&macOS](https://img.shields.io/badge/-iOS_&_macOS-000000?labelColor=000000&logo=Apple)  
-
 ## 主要功能
 
 1.  模拟配装与数据计算 
