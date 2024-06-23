@@ -1,23 +1,22 @@
 ﻿《全境封锁2配装工具》是为游戏[《全境封锁2》](https://www.ubisoft.com/en-us/game/the-division/the-division-2)
 开发的第三方工具软件，采用.NET MAUI框架，在Android、Windows、iOS、macOS上构建并发布应用。
 
-![Windows](https://img.shields.io/badge/-Windows10-0078D6?labelColor=0078D6&logo=Windows)
-![Android](https://img.shields.io/badge/-Android-000000?labelColor=000000&logo=Android)
-![iOS&macOS](https://img.shields.io/badge/-iOS_&_macOS-000000?labelColor=000000&logo=Apple)  
+![Windows](https://img.shields.io/badge/-Windows10-0078D6?labelColor=0078D6&logo=Windows)![Android](https://img.shields.io/badge/-Android-000000?labelColor=000000&logo=Android)![iOS&macOS](https://img.shields.io/badge/-iOS_&_macOS-000000?labelColor=000000&logo=Apple)  
 
 ## 主要功能
 
 1.  模拟配装与数据计算 
-2.  游戏数据展示（包括武器数据、品牌加成、天赋列表、物品搜索等功能） 
+2.  游戏相关数据展示（包括武器数据、品牌加成、天赋列表、装备搜索、玩家数据查询等功能） 
 
-## [软件界面](https://division2buildtool.github.io/interface)
+## 软件界面
+![桌面端界面](/img/screenshot.png) 
 
-## [软件使用](https://division2buildtool.github.io/introduction)
+## [软件使用🔗](https://division2buildtool.github.io/introduction)
 
 ## 软件下载
 - [蓝奏云](https://wwbb.lanzout.com/b03vesg4h)     密码：3z9a
 
-移动端下载apk/ipa文件时可能会提示需要会员才能分享，将手机浏览器的界面切换为桌面模式，即可跳过限制下载文件。
+    移动端下载apk/ipa文件时可能会提示需要会员才能分享，将手机浏览器的界面切换为桌面模式，即可跳过限制下载文件。
 
 ## 系统要求
 
@@ -28,14 +27,22 @@ Android       | Android 5.0                    |Android 7.0
 iOS           | iOS 11                         |iOS 14
 macOS         | macOS 10.15                    |macOS 11
 
-## [软件安装](https://division2buildtool.github.io/installation)
+## 软件安装
+
+### iOS系统
+软件ipa安装包未签名，需要自签后进行安装。
+
+### [Windows系统安装🔗](https://division2buildtool.github.io/installation)
+
 
 ## 已知问题
 
 1.  安卓CollectionView在ScrollView中卡顿 [MAUI#17326](https://github.com/dotnet/maui/issues/17326)、[#18505](https://github.com/dotnet/maui/issues/18505)
     - 临时方法：安卓平台使用.NET7
 1.  安卓使用CommunityToolkit.Maui的Popup时Label文字显示、断行错误 [MCT#1532](https://github.com/CommunityToolkit/Maui/issues/1532)、[#1592](https://github.com/CommunityToolkit/Maui/issues/1592)、[#1664](https://github.com/CommunityToolkit/Maui/issues/1664)、[#1717](https://github.com/CommunityToolkit/Maui/issues/1717)、[#1724](https://github.com/CommunityToolkit/Maui/issues/1724)
-    - 临时方法：安卓平台使用Mopups和旧版本CommunityToolkit.Maui(v5.2.0)，
+    - 临时方法：安卓平台使用Mopups和旧版本CommunityToolkit.Maui(v5.2.0)
+1.  Windows平台存在安装后不能打开的问题
+    - 未确定原因，可能相关[#21744](https://github.com/dotnet/maui/issues/21744)
 
 
 
