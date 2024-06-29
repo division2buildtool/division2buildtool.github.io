@@ -1,0 +1,42 @@
+name: Test
+
+on: workflow_dispatch
+  #push:
+  #  branches: [ "master" ]    
+  #pull_request:
+  #  branches: [ "master" ]
+    #tags:
+    #  - "v[0-9]+.[0-9]+.[0-9]+"
+  
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    # - name: Checkout
+    #   uses: actions/checkout@v4
+    #   with:
+    #     repository: division2buildtool/division2buildtool.github.io 
+
+    - name: Download Windows
+      uses: actions/download-artifact@v4
+      with:
+        name: windows-msix-pack
+
+        github-token: ${{secrets.TOKEN}}
+        repository: 269442033/Division2BuildTool
+        path: division2buildtool.github.io 
+        # run-id: 9724225679
+
+    # - name: Checkout
+    #   uses: actions/checkout@v4
+    # - name: Build
+    #   run: echo ${{ github.sha }} > Release.txt
+    # - name: Test
+    #   run: cat Release.txt
+    - name: Release
+      uses: softprops/action-gh-release@v2
+      with:
+        files: |
+          windows-msix-pack
