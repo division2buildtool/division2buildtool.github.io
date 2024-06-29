@@ -14,11 +14,6 @@ jobs:
 
     steps:
 
-    # - name: Checkout
-    #   uses: actions/checkout@v4
-    #   with:
-    #     repository: division2buildtool/division2buildtool.github.io 
-
     - name: Download Windows
       uses: actions/download-artifact@v4
       with:
@@ -28,12 +23,6 @@ jobs:
         run-id: 9724225679
         # path: division2buildtool.github.io 
 
-    # - name: Checkout
-    #   uses: actions/checkout@v4
-    # - name: Build
-    #   run: echo ${{ github.sha }} > Release.txt
-    # - name: Test
-    #   run: cat Release.txt
     - name: Release
       uses: softprops/action-gh-release@v2
       with:
