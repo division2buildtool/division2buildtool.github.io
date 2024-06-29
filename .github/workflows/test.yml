@@ -23,11 +23,10 @@ jobs:
       uses: actions/download-artifact@v4
       with:
         name: windows-msix-pack
-
         github-token: ${{secrets.TOKEN}}
         repository: 269442033/Division2BuildTool
-        path: division2buildtool.github.io 
-        # run-id: 9724225679
+        run-id: 9724225679
+        # path: division2buildtool.github.io 
 
     # - name: Checkout
     #   uses: actions/checkout@v4
