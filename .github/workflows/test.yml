@@ -19,7 +19,9 @@ jobs:
         repository: 269442033/Division2BuildTool
         run-id: 9724225679
         # path: division2buildtool.github.io 
-
+    
+    - run: |
+       ls -R 
     - name: Release
       uses: softprops/action-gh-release@v2
       with:
