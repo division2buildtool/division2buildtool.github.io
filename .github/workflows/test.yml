@@ -23,7 +23,6 @@ jobs:
     - run: |
        ls -R 
     - name: Release
-      uses: softprops/action-gh-release@v2
+      uses: ncipollo/release-action@v1
       with:
-        files: |
-          windows
+        artifacts: "windows"
