@@ -24,4 +24,4 @@ jobs:
       uses: softprops/action-gh-release@v2
       with:
         files: |
-          windows-msix-pack
+          windows-msix-pack.zip
