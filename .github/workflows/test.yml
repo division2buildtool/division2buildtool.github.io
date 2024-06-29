@@ -24,6 +24,3 @@ jobs:
        ls -R 
     - name: Release
       uses: softprops/action-gh-release@v2
-      with:
-        files: |
-          windows-msix-pack.zip
