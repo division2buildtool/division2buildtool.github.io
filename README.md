@@ -22,6 +22,10 @@ iOS           | iOS 11                         |iOS 14
 macOS         | macOS 10.15                    |macOS 11
 
 ## 软件下载
+- [GitHub Releases](https://github.com/division2buildtool/division2buildtool.github.io/releases)
+
+    如果直接下载较慢，可以复制文件链接使用[GitHub 文件加速](https://gitdl.cn/)等进行下载
+
 - [蓝奏云](https://wwbb.lanzout.com/b03vesg4h)     密码：3z9a
 
     移动端下载apk/ipa文件时可能会提示需要会员才能分享，将手机浏览器的界面切换为桌面模式，即可跳过限制下载文件。
