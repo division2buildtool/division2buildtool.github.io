@@ -46,7 +46,8 @@ macOS         | macOS 10.15                    |macOS 11
     - 临时方法：安卓平台使用Mopups和旧版本CommunityToolkit.Maui(v5.2.0)
 1.  Windows平台存在安装后不能打开的问题
     - 未确定原因，可能相关[#21744](https://github.com/dotnet/maui/issues/21744)
-
+1.  Windows平台CheckBox尺寸错误
+    - 未确定原因，可能相关[#24783](https://github.com/dotnet/maui/issues/24783)
 
 ## 开发环境
 ### [Visual Studio 2022](https://visualstudio.microsoft.com/zh-hans/vs/)
