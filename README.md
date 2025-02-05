@@ -24,7 +24,7 @@ macOS         | macOS 10.15                    |macOS 11
 ## 软件下载
 - [GitHub Releases](https://github.com/division2buildtool/division2buildtool.github.io/releases)
 
-    如果直接下载较慢，可以复制文件链接使用[GitHub 文件加速](https://gitdl.cn/)等进行下载
+    如果直接下载较慢，可以复制文件链接使用[GitHub 文件加速1](https://gitdl.cn/)或[GitHub 文件加速2](https://github.moeyy.xyz/)等进行下载
 
 - [蓝奏云](https://wwbb.lanzout.com/b03vesg4h)     密码：3z9a
 
@@ -33,7 +33,7 @@ macOS         | macOS 10.15                    |macOS 11
 ## 软件安装
 
 ### iOS系统
-软件ipa安装包未签名，需要自签后进行安装。
+软件ipa安装包未签名，需要自签后进行安装。（自行搜索相关教程）
 
 ### Windows系统
 详见[Windows系统安装说明](https://division2buildtool.github.io/installation)
@@ -57,15 +57,17 @@ macOS         | macOS 10.15                    |macOS 11
 
 
 ## 数据参考和图片素材来源
-- [Division 2 Build Making Tool (TU16)](https://docs.google.com/spreadsheets/d/1gdiqJGR0U9yiSX90mVA4bruWfUyWpmsmWsYz4wY7t3Q)
-- [Division 2 Gear Spreadsheet](https://docs.google.com/spreadsheets/d/1nrPBmOrtpkEW1j5fbcRT7L-AXgsGOqMqxXoVtopsiGM)
-- [Division 2 Gear Attribute Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vTJEX5DerCvOj3a_m36TRy1gPBAUvrduOIdmXI9j1Y0MpQk1wIXaZ9KOcPa7HzXzp_N5qGmjDj6yEfL/pubhtml)
-- [全境封锁2 TU17敌怪【血量统计】](https://www.bilibili.com/video/BV1C84y1P7Cr)
-- [TU19猎头者伤害公式](https://tieba.baidu.com/p/8809994501)
+- [Hunter - The TD2, AFOP, XDefiant Asset Extractor](https://dtzxporter.com/tools/hunter)
 - [The Division 2: Weekly Vendor Reset - Ruben Alamina](https://rubenalamina.mx/the-division-weekly-vendor-reset/)
 - [The Division 2 Stats](https://tracker.gg/division-2)
 - [Ubisoft Help](https://www.ubisoft.com/zh-cn/help/game/the-division-2)
-- [Hunter - The TD2, AFOP, XDefiant Asset Extractor](https://dtzxporter.com/tools/hunter)
+- [全境封锁2 TU17敌怪【血量统计】](https://www.bilibili.com/video/BV1C84y1P7Cr)
+- [TU19猎头者伤害公式](https://tieba.baidu.com/p/8809994501)
+- [Division 2 Build Making Tool](https://drive.google.com/drive/folders/1Y2To9xV33vXuI6QSQhVG6zT6vE-hh2Hv)
+- [Division 2 Gear Attribute Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vTJEX5DerCvOj3a_m36TRy1gPBAUvrduOIdmXI9j1Y0MpQk1wIXaZ9KOcPa7HzXzp_N5qGmjDj6yEfL/pubhtml)
+- [Division 2 Gear Spreadsheet](https://docs.google.com/spreadsheets/d/1nrPBmOrtpkEW1j5fbcRT7L-AXgsGOqMqxXoVtopsiGM)
+
+
 
 ## 感谢以下开源项目
 * [.NET MAUI - MIT License](https://github.com/dotnet/maui)
