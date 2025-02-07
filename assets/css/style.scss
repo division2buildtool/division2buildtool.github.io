@@ -78,7 +78,10 @@
 }
 
 body {
-  color: var(--body-color);
-  background-color: var(--body-bg);
+    color: var(--body-color);
+    background-color: var(--body-bg);
 }
 
+a {
+    color: var(--link-color);
+}
