@@ -48,17 +48,17 @@
     --spacer-3: calc(var(--spacer) * 3);
 }
 
-/*@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     :root {
         --body-color: var(--gray-300);
-        --body-bg: var(--gray-800);
+        --body-bg: var(--gray-900);
         --heading-color: #fff;
         --link-color: var(--blue-300);
         --link-hover-color: var(--blue-400);
         --border-color: rgba(255, 255, 255, 0.15);
         --code-bg: var(--gray-900);
     }
-}*/
+}
 
 // Dark Poole theme
 /*[data-theme="dark-poole"] {
