@@ -33,22 +33,22 @@
     --body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --body-font-size: 20px;
     --body-line-height: 1.5;
-    --body-color: var(--gray-700);
-    --body-bg: #fff;
-    --link-color: var(--blue);
-    --link-hover-color: #1c7ed6;
-    --heading-color: var(--gray-900);
-    --border-color: var(--gray-300);
+    --body-color: var(--gray-300);
+    --body-bg: var(--gray-900);
+    --link-color: var(--blue-300);
+    --link-hover-color: var(--blue-400);
+    --heading-color: #fff;
+    --border-color: rgba(255, 255, 255, 0.15);
     --border-radius: 0.25rem;
     --code-font: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --code-color: var(--grape);
-    --code-bg: var(--gray-000);
+    --code-bg: var(--gray-900);
     --spacer: 1rem;
     --spacer-2: calc(var(--spacer) * 1.5);
     --spacer-3: calc(var(--spacer) * 3);
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
     :root {
         --body-color: var(--gray-300);
         --body-bg: var(--gray-800);
@@ -58,10 +58,10 @@
         --border-color: rgba(255, 255, 255, 0.15);
         --code-bg: var(--gray-900);
     }
-}
+}*/
 
 // Dark Poole theme
-[data-theme="dark-poole"] {
+/*[data-theme="dark-poole"] {
     --body-color: var(--dark-poole-002);
     --body-bg: var(--dark-poole-001);
     --heading-color: var(--dark-poole-002);
@@ -69,15 +69,29 @@
     --link-hover-color: var(--dark-poole-link-hover);
     --border-color: rgba(255, 255, 255, 0.15);
     --code-bg: var(--gray-900);
-}
+}*/
 
 @import "{{ site.theme }}";
+
+.page-header {
+    color: #fff;
+    text-align: center;
+    background-color: #159957;
+    background-image: linear-gradient(90deg, #081720, #0a0707)
+}
+
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    color: #FF6D10
+}
 
 // Body resets
 //
 // Update the foundational and global aspects of the page.
 
-* {
+/** {
   box-sizing: border-box;
 }
 
@@ -142,4 +156,4 @@ mark {
   padding: .15rem;
   background-color: var(--yellow-100);
   border-radius: .125rem;
-}
+}*/
