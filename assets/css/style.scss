@@ -48,7 +48,7 @@
     --spacer-3: calc(var(--spacer) * 3);
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
     :root {
         --body-color: var(--gray-300);
         --body-bg: var(--gray-900);
@@ -58,18 +58,8 @@
         --border-color: rgba(255, 255, 255, 0.15);
         --code-bg: var(--gray-900);
     }
-}
-
-// Dark Poole theme
-/*[data-theme="dark-poole"] {
-    --body-color: var(--dark-poole-002);
-    --body-bg: var(--dark-poole-001);
-    --heading-color: var(--dark-poole-002);
-    --link-color: var(--dark-poole-link-color);
-    --link-hover-color: var(--dark-poole-link-hover);
-    --border-color: rgba(255, 255, 255, 0.15);
-    --code-bg: var(--gray-900);
 }*/
+
 
 @import "{{ site.theme }}";
 
@@ -87,73 +77,8 @@
     color: #FF6D10
 }
 
-// Body resets
-//
-// Update the foundational and global aspects of the page.
-
-/** {
-  box-sizing: border-box;
-}
-
 body {
-  margin: 0;
-  font-family: var(--body-font);
-  font-size: var(--body-font-size);
-  line-height: var(--body-line-height);
   color: var(--body-color);
   background-color: var(--body-bg);
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
 }
 
-// No `:visited` state is required by default (browsers will use `a`)
-a {
-  color: var(--link-color);
-
-  // `:focus` is linked to `:hover` for basic accessibility
-  &:hover,
-  &:focus {
-    color: var(--link-hover-color);
-  }
-
-  strong {
-    color: inherit;
-  }
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  margin-bottom: var(--spacer);
-  border-radius: var(--border-radius);
-}
-
-table {
-  margin-bottom: 1rem;
-  width: 100%;
-  border: 0 solid var(--border-color);
-  border-collapse: collapse;
-}
-
-td,
-th {
-  padding: .25rem .5rem;
-  border-color: inherit;
-  border-style: solid;
-  border-width: 0;
-  border-bottom-width: 1px;
-}
-
-th {
-  text-align: left;
-}
-
-thead th {
-  border-bottom-color: currentColor;
-}
-
-mark {
-  padding: .15rem;
-  background-color: var(--yellow-100);
-  border-radius: .125rem;
-}*/
