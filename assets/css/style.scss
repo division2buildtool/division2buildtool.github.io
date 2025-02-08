@@ -34,3 +34,15 @@ body {
 a {
     color: #74c0fc;
 }
+a:hover {
+    color: #4dabf7;
+}
+
+.main-content pre {
+    color: #fff;
+    background-color: #0c0c0c;
+}
+
+.main-content pre > code {
+    color: #fff;
+}
