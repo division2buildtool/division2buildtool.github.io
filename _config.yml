@@ -1,7 +1,3 @@
 ﻿include: [".well-known","assetlinks.json","apple-app-site-association"]
 theme: jekyll-theme-cayman
 title: 全境封锁2配装工具
-
-
-sass:
-  sass_dir: _sass
