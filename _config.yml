@@ -1,6 +1,6 @@
-﻿include: [".well-known","assetlinks.json","apple-app-site-association"]
+﻿# include: [".well-known","assetlinks.json","apple-app-site-association"]
 theme: jekyll-theme-cayman
 title: 全境封锁2配装工具
-github:
-  is_project_page: yes
-  repository_url: https://github.com/division2buildtool/division2buildtool.github.io/releases
+# github:
+#   is_project_page: yes
+#   repository_url: https://github.com/division2buildtool/division2buildtool.github.io/releases
