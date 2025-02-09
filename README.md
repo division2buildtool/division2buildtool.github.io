@@ -38,8 +38,8 @@ macOS         | macOS 10.15                    |macOS 11
 ### Windows系统
 详见[Windows系统安装说明](https://division2buildtool.github.io/installation)
 
+<!--
 ## 已知问题
-
 1.  安卓CollectionView在ScrollView中卡顿 [MAUI#17326](https://github.com/dotnet/maui/issues/17326)、[#18505](https://github.com/dotnet/maui/issues/18505)
     - 临时方法：安卓平台使用.NET7
 1.  安卓使用CommunityToolkit.Maui的Popup时Label文字显示、断行错误 [MCT#1532](https://github.com/CommunityToolkit/Maui/issues/1532)、[#1592](https://github.com/CommunityToolkit/Maui/issues/1592)、[#1664](https://github.com/CommunityToolkit/Maui/issues/1664)、[#1717](https://github.com/CommunityToolkit/Maui/issues/1717)、[#1724](https://github.com/CommunityToolkit/Maui/issues/1724)
@@ -49,12 +49,13 @@ macOS         | macOS 10.15                    |macOS 11
 1.  Windows平台CheckBox尺寸错误
     - 未确定原因，可能相关[#24783](https://github.com/dotnet/maui/issues/24783)
 
+
 ## 开发环境
 ### [Visual Studio 2022](https://visualstudio.microsoft.com/zh-hans/vs/)
 - 工作负荷
     - 桌面应用和移动应用
         - [.NET Multi-platform App UI 开发](https://learn.microsoft.com/zh-cn/dotnet/maui/what-is-maui?view=net-maui-8.0)
-
+-->
 
 ## 数据参考和图片素材来源
 - [Hunter - The TD2, AFOP, XDefiant Asset Extractor](https://dtzxporter.com/tools/hunter)
@@ -66,7 +67,6 @@ macOS         | macOS 10.15                    |macOS 11
 - [Division 2 Build Making Tool](https://drive.google.com/drive/folders/1Y2To9xV33vXuI6QSQhVG6zT6vE-hh2Hv)
 - [Division 2 Gear Attribute Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vTJEX5DerCvOj3a_m36TRy1gPBAUvrduOIdmXI9j1Y0MpQk1wIXaZ9KOcPa7HzXzp_N5qGmjDj6yEfL/pubhtml)
 - [Division 2 Gear Spreadsheet](https://docs.google.com/spreadsheets/d/1nrPBmOrtpkEW1j5fbcRT7L-AXgsGOqMqxXoVtopsiGM)
-
 
 
 ## 感谢以下开源项目
